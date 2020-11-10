@@ -8,7 +8,7 @@ module.exports = {
     filename: 'bundle.js',
     publicPath: '/dist',
   },
-  devtool: 'source-map',
+  devtool: 'source-map', 
   module: {
     rules: [
       {
@@ -40,7 +40,7 @@ module.exports = {
   devServer: {
     publicPath: '/dist',
     proxy: {
-      '/api': 'http://localhost:3000',
+      '/api': 'http://localhost:4000',
     },
     hot: true,
     historyApiFallback: true,

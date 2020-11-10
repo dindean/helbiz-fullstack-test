@@ -28,4 +28,5 @@ query.GET_BIKE = gql`
   }
 `;
 
+
 export default query;

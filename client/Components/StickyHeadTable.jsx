@@ -39,7 +39,6 @@ const createData = (bikeData) => {
   return { bike_id, lat, lon, is_reserved, is_disabled, vehicle_type };
 }
 
-
 const useStyles = makeStyles({
   root: {
     width: '100%',

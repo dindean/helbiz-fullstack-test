@@ -1,5 +1,5 @@
 const { RESTDataSource } = require('apollo-datasource-rest');
-
+// use the RESTDataSource class from the apollo-datasource-rest package
 class HelbizAPI extends RESTDataSource {
   constructor() {
     super();
